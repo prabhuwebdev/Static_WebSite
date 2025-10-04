@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './supportcards.module.css';
+import styles from './SupportCards.module.css';
 import SupportImage1 from '../../assets/customer_support.jpg';
 import SupportImage2 from '../../assets/AccountManager.jpg';
 import SupportImage3 from '../../assets//customer_support.jpg';
