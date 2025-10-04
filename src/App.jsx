@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    
       <Navbar1/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -25,7 +25,7 @@ function App() {
 
       </Routes>
       <Footer/>
-    </Router>
+    
 
     </>
   )
