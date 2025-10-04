@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaLaptopCode, FaBrain, FaMoneyBillWave } from 'react-icons/fa';
-import styles from './Servicecards.module.css';
+import styles from './Servicecards.module.css'
 
 const ServiceCards = () => {
   const services = [
