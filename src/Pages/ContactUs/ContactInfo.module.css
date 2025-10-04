@@ -1,0 +1,102 @@
+.contactSection {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.contactSubtext {
+  font-size: 1rem;
+  color: #555;
+}
+
+.equalRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBox {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoBox {
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  height: 100%;
+}
+
+.iconRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contactIcon {
+  font-size: 1.8rem;
+  color: #333;
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+}
+
+.contactLabel {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.contactText {
+  margin: 0;
+  color: #666;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  resize: none;           /* 🔥 Removes the bottom-right resize handle */
+  outline: none;          /* 🔥 Removes focus outline */
+  box-shadow: none;       /* 🔥 Removes any inner lines or shadows */
+}
+
+
+.submitButton {
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #333;
+}

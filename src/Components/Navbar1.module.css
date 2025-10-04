@@ -1,0 +1,58 @@
+.navbar {
+  padding: 0.75rem 1.5rem;
+  backdrop-filter: blur(12px);
+  background-color: transparent;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.scrolled {
+  background-color: rgba(31, 30, 30, 0.9);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navGroup {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+}
+
+.navItem {
+  color: white !important;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.navItem:hover {
+  color: #e2d9f3 !important;
+  text-decoration: none;
+}
+
+.demoSection {
+  margin-left: auto;
+}
+
+.demoBtn {
+  background-color: white;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.demoBtn:hover {
+  background-color: #e2d9f3;
+  color: #000000;
+}

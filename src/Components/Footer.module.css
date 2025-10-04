@@ -1,0 +1,43 @@
+/* Footer.module.css */
+
+/* Column Headings */
+.heading {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.text {
+    color: #606266;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+    cursor: default;
+}
+
+.text:hover {
+    color: white;
+}
+
+/* Quick Links paragraph as link */
+.link {
+    color: #4B535D;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: white;
+}
+
+/* Social Icons container */
+.socialIcons {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    flex-shrink: 0;
+}

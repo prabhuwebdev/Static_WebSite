@@ -1,0 +1,30 @@
+.section {
+  background-color: #f8f9fa;
+  min-height: 300px; /* Increased height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sliderWrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.slider {
+  display: flex;
+  gap: 4rem;
+  min-width: 200%; /* Ensures smooth loop */
+}
+
+.client {
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #343a40;
+  padding: 1rem 2rem;
+  white-space: nowrap;
+}
+

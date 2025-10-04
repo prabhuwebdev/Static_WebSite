@@ -1,0 +1,27 @@
+.section {
+  background-color: #f8f9fa;
+}
+
+.divider {
+  width: 80px;
+  border-top: 2px solid #343a40;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 3px solid #dee2e6;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #343a40;
+}

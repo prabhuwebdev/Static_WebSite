@@ -1,0 +1,92 @@
+.wrapper {
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #1f1f1f, #2c2c2c);
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.heading::after {
+  content: '';
+  position: absolute;
+  bottom: -8px; /* 🔽 Distance below the text */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;   /* 🔽 Width of the underline */
+  height: 3px;   /* 🔽 Thickness */
+  background-color: #f0d83b; /* 🔥 Yellow underline */
+  border-radius: 2px;
+}
+
+
+.intro {
+  font-size: 1rem;
+  color: #ffffffc2;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+/* .carouselWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  gap: 1rem;
+} */
+
+
+.carouselWrapper {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px; /* 🔽 Reduced width */
+  margin: 0 auto;   /* 🔥 Center horizontally */
+}
+
+.track {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.card {
+  min-width: 250px;
+  max-width: 250px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid yellow;
+  padding: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #f0d83b;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #080808;
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  color: #050505c2;
+  line-height: 1.5;
+}
