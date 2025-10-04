@@ -2,6 +2,7 @@ import React from 'react';
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import styles from './Footer.module.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className='row py-5 d-flex justify-content-around align-items-center'>
 
             <div className='col-lg-2 col-md-6 col-sm-12 my-2 my-md-0 d-flex flex-column'>
-                <h4 className={styles.heading}>iTech Solutions</h4>
+                <h4 className={styles.heading}>i-Tech Solutions</h4>
                 <p className={styles.text}>We are a leading IT company delivering innovative AI, web, and mobile app solutions to empower businesses worldwide.</p>
             </div>
 
@@ -23,10 +24,10 @@ const Footer = () => {
 
             <div className='col-lg-2 col-md-6 col-sm-12 my-2 my-md-0'>
                 <h4 className={styles.heading}>Quick Links</h4>
-                <p className={styles.link}><a href="/" className={styles.link}>Home</a></p>
-                <p className={styles.link}><a href="/services" className={styles.link}>Services</a></p>
-                <p className={styles.link}><a href="/about" className={styles.link}>About Us</a></p>
-                <p className={styles.link}><a href="/contact" className={styles.link}>Contact Us</a></p>
+                <p className={styles.link}><Link to='/' className={styles.link}>Home</Link></p>
+                <p className={styles.link}><Link to="/services" className={styles.link}>Services</Link></p>
+                <p className={styles.link}><Link to="/about" className={styles.link}>About Us</Link></p>
+                <p className={styles.link}><Link to="/contact" className={styles.link}>Contact Us</Link></p>
             </div>
 
             <div className='col-lg-2 col-md-6 col-sm-12 my-2 my-md-0'>
