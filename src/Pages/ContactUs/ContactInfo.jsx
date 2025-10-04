@@ -14,40 +14,38 @@ const ContactInfo = () => {
           </p>
         </div>
 
-        {/* Equal-height Flex Row */}
-        <div className={`row ${styles.equalRow}`}>
+        {/* Responsive Flex Row */}
+        <div className="row gy-4">
           {/* Left Side */}
-          <div className={`col-md-6 ${styles.flexBox}`}>
+          <div className="col-12 col-md-6 d-flex">
             <div className={styles.cardBox}>
-              <div className="row g-4">
-                <div className="col-6">
+              <div className="row gy-4">
+                <div className="col-12 col-sm-6">
                   <div className={styles.infoBox}>
                     <div className={styles.iconRow}>
                       <FiMapPin className={styles.contactIcon} />
                       <div>
                         <h5 className={styles.contactLabel}>Address Business</h5>
                         <p className={styles.contactText}>
-                          12,Dummy Street,Lorem City<br/>
+                          12,Dummy Street,Lorem City<br />
                           Dummy State
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-sm-6">
                   <div className={styles.infoBox}>
                     <div className={styles.iconRow}>
                       <FiMail className={styles.contactIcon} />
                       <div>
                         <h5 className={styles.contactLabel}>Email Address</h5>
-                        <p className={styles.contactText}>
-                          iTech@gmail.com
-                        </p>
+                        <p className={styles.contactText}>iTech@gmail.com</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-sm-6">
                   <div className={styles.infoBox}>
                     <div className={styles.iconRow}>
                       <FiPhone className={styles.contactIcon} />
@@ -58,7 +56,7 @@ const ContactInfo = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-sm-6">
                   <div className={styles.infoBox}>
                     <div className={styles.iconRow}>
                       <FiClock className={styles.contactIcon} />
@@ -77,28 +75,24 @@ const ContactInfo = () => {
           </div>
 
           {/* Right Side */}
-          <div className={`col-md-6 ${styles.flexBox}`}>
+          <div className="col-12 col-md-6 d-flex">
             <div className={styles.cardBox}>
               <form>
                 <div className="row">
-                  <div className="col-md-6 mb-3">
+                  <div className="col-12 col-sm-6 mb-3">
                     <input type="text" className={styles.input} placeholder="Full Name" />
                   </div>
-                  <div className="col-md-6 mb-3">
+                  <div className="col-12 col-sm-6 mb-3">
                     <input type="email" className={styles.input} placeholder="Email Address" />
                   </div>
                 </div>
 
                 <div className="row">
-                  <div className="col-md-6 mb-3">
+                  <div className="col-12 col-sm-6 mb-3">
                     <input type="text" className={styles.input} placeholder="Phone Number" />
                   </div>
-                  <div className="col-md-6 mb-3">
-                    <input
-                      type="text"
-                      className={styles.input}
-                      placeholder="Tell us what you're looking for!"
-                    />
+                  <div className="col-12 col-sm-6 mb-3">
+                    <input type="text" className={styles.input} placeholder="Tell us what you're looking for!" />
                   </div>
                 </div>
 

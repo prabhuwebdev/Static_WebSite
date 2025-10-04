@@ -4,24 +4,14 @@
 }
 
 .contactTitle {
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 5vw, 2rem);
   font-weight: 700;
   color: #222;
 }
 
 .contactSubtext {
-  font-size: 1rem;
+  font-size: clamp(0.85rem, 4vw, 1rem);
   color: #555;
-}
-
-.equalRow {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flexBox {
-  display: flex;
-  flex-direction: column;
 }
 
 .cardBox {
@@ -59,11 +49,13 @@
 .contactLabel {
   font-weight: 600;
   margin-bottom: 0.3rem;
+  font-size: clamp(0.95rem, 4vw, 1rem);
 }
 
 .contactText {
   margin: 0;
   color: #666;
+  font-size: clamp(0.85rem, 3.5vw, 0.95rem);
 }
 
 .input {
@@ -71,21 +63,19 @@
   padding: 0.6rem 0.75rem;
   border-radius: 12px;
   border: 1px solid #ccc;
-  font-size: 0.95rem;
+  font-size: clamp(0.85rem, 3.5vw, 0.95rem);
 }
-
 
 .textarea {
   width: 100%;
   padding: 0.75rem;
   border-radius: 12px;
   border: 1px solid #ccc;
-  font-size: 0.95rem;
-  resize: none;           /* 🔥 Removes the bottom-right resize handle */
-  outline: none;          /* 🔥 Removes focus outline */
-  box-shadow: none;       /* 🔥 Removes any inner lines or shadows */
+  font-size: clamp(0.85rem, 3.5vw, 0.95rem);
+  resize: none;
+  outline: none;
+  box-shadow: none;
 }
-
 
 .submitButton {
   background-color: #000;
@@ -94,6 +84,7 @@
   border: none;
   border-radius: 30px;
   font-weight: 600;
+  font-size: clamp(0.9rem, 4vw, 1rem);
   transition: background-color 0.3s ease;
 }
 
