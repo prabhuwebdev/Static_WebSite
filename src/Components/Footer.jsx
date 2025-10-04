@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='row py-5 d-flex justify-content-around align-items-center'>
 
             <div className='col-lg-2 col-md-6 col-sm-12 my-2 my-md-0 d-flex flex-column'>
-                <h4 className={styles.heading}>XYZ Solutions</h4>
+                <h4 className={styles.heading}>iTech Solutions</h4>
                 <p className={styles.text}>We are a leading IT company delivering innovative AI, web, and mobile app solutions to empower businesses worldwide.</p>
             </div>
 
