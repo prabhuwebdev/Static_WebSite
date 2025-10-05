@@ -53,7 +53,7 @@ const Footer = () => {
                     <h4 className={styles.heading}>Contact Us</h4>
                 <div>
                     <h6 className={styles.text}>+91 8364726182</h6>
-                    <h6 className={styles.text} ><a href='#' className={styles.link}>xyzsolutions.in</a></h6>
+                    <h6 className={styles.text} ><a href='#' className={styles.link}>i-TechSolutions.in</a></h6>
                 </div>
                 </div>
                 
