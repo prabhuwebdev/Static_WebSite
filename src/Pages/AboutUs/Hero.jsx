@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Aboutus.module.css';
+import styles from './Hero.module.css';
 import bgImage from '../../assets/projectimages/Software_Teams.jpg'; // Replace with your actual image path
 import OurStory from './OurStory';
 import OurVision from './OurVision';

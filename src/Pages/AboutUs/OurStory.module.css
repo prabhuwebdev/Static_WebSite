@@ -1,8 +1,7 @@
 .wrapper {
   padding: 4rem 2rem;
   background-color: #fff;
-  /* max-width: 900px;
-  margin: 0 auto; */
+ 
 }
 
 .subheading {
@@ -23,7 +22,7 @@
 }
 
 .highlight {
-  color: #f6c90e; /* Yellow highlight */
+  color: #f6c90e; 
 }
 
 .paragraph {
